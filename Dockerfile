@@ -12,3 +12,7 @@ WORKDIR /bwa
 RUN make
 
 ENV PATH=/bwa:$PATH
+
+VOLUME /data
+
+WORKDIR /data
