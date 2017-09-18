@@ -9,6 +9,8 @@ RUN git clone --recursive https://github.com/lh3/bwa.git /bwa
 
 WORKDIR /bwa
 
+RUN git checkout v0.7.16
+
 RUN make
 
 ENV PATH=/bwa:$PATH
