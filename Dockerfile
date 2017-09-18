@@ -18,4 +18,3 @@ VOLUME /data
 
 WORKDIR /data
 
-ENTRYPOINT bwa
