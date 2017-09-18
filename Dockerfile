@@ -10,3 +10,5 @@ RUN git clone https://github.com/lh3/bwa.git /bwa
 WORKDIR /bwa
 
 RUN make
+
+ENV PATH=/bwa:$PATH
