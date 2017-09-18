@@ -13,6 +13,8 @@ RUN git checkout v0.7.16 && rm -rf .git
 
 RUN make
 
+RUN apt purge --yes build-essential git
+
 ENV PATH=/bwa:$PATH
 
 VOLUME /data
