@@ -17,3 +17,5 @@ ENV PATH=/bwa:$PATH
 VOLUME /data
 
 WORKDIR /data
+
+ENTRYPOINT bwa
